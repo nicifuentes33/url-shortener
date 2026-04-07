@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Shortly</h1>
+
+      <ul class="nav-links">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+
+      <div class="auth-buttons">
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>More than just shorter links</h2>
+      <p>
+        Build your brand’s recognition and get detailed insights on how your links are performing.
+      </p>
+      <button class="cta">Get Started</button>
+    </div>
+
+    <div class="hero-img">
+      <img src="images/illustration-working.svg" alt="Ilustración">
+    </div>
+  </section>
+
+  <!-- SHORTENER -->
+  <section class="shortener-container">
+
+    <div class="shortener-box">
+      <form id="form">
+        <input 
+          type="text" 
+          id="url" 
+          placeholder="Shorten a link here..." 
+        >
+        <button type="submit">Shorten It!</button>
+      </form>
+      <p id="error-message"></p>
+    </div>
+
+    <!-- RESULTADOS -->
+    <div id="result" class="results"></div>
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <h2>Advanced Statistics</h2>
+    <p class="features-desc">
+      Track how your links are performing across the web with our advanced statistics dashboard.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/icon-brand-recognition.svg" alt="">
+        </div>
+        <h3>Brand Recognition</h3>
+        <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/icon-detailed-records.svg" alt="">
+        </div>
+        <h3>Detailed Records</h3>
+        <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/icon-fully-customizable.svg" alt="">
+        </div>
+        <h3>Fully Customizable</h3>
+        <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Boost your links today</h2>
+    <button class="cta">Get Started</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+
+      <h2 class="logo">Shortly</h2>
+
+      <div class="footer-links">
+        <div>
+          <h4>Features</h4>
+          <p>Link Shortening</p>
+          <p>Branded Links</p>
+          <p>Analytics</p>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+          <p>Blog</p>
+          <p>Developers</p>
+          <p>Support</p>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <p>About</p>
+          <p>Our Team</p>
+          <p>Careers</p>
+          <p>Contact</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="copyright">© 2026 Shortly</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
